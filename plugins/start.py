@@ -1,4 +1,6 @@
-from pyrogram import Client, filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, filters, StopPropagation
+from pyrogram.types.bots_and_keyboards.inline_keyboard_button import InlineKeyboardButton
+from pyrogram.types.bots_and_keyboards.inline_keyboard_markup import InlineKeyboardMarkup
 
 
 @Client.on_message(filters.command(["start"]), group=-2)
