@@ -62,7 +62,6 @@ async def downloadvideocli(command_to_exec):
     e_response = stderr.decode().strip()
     t_response = stdout.decode().strip()
     print(e_response)
-    filename = t_response.split("Merging formats into")[-1].split('"')[1]
     pass 
 
 
